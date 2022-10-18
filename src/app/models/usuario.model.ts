@@ -14,5 +14,10 @@ export class Page {
   public per_page!: number;
   public total!: number;
   public total_pages!: number;
-  public data!: Usuario[]
+  public data!: Usuario[];
+  public firstData!: Usuario;
+}
+
+export class Page2 {
+  public data!: Usuario;
 }
